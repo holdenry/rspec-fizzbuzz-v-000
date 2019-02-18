@@ -12,6 +12,7 @@ describe "fizzbuzz" do
   
   it 'returns "Buzz" when the number is divisible by 5' do
     fizz_5 = fizzbuzz(5)
+    fizzbuzz(5) == "Buzz"
 
     expect(fizz_5).to eq("Buzz")
   end
